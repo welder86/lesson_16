@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson_166</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header"></header>
+
+    <main class="page">
+
+      <section class="contacts">
+        <div class="contacts__container">
+
+          <div class="contacts__image">
+            <img src="images/illustration.svg" alt="">
+          </div>
+
+          <div class="contacts__content content-contacts">
+            <h4 class="content-contacts__pretitle">Any questions?</h4>
+            <h2 class="content-contacts__title">Drop us a line</h2>
+
+            <form class="form" action="#">
+
+              <div class="form__item">
+                <label class="form__label" for="first name">First Name*</label>
+                <input class="form__input" required id="first name" placeholder="Your first name" name="first name"
+                  type="text">
+              </div>
+
+              <div class="form__item">
+                <label class="form__label" for="last name">Last Name*</label>
+                <input class="form__input" required id="last name" placeholder="Your last name" name="last name"
+                  type="text">
+              </div>
+
+              <div class="form__item">
+                <label class="form__label" for="email">Email*</label>
+                <input class="form__input" id="email" name="email" placeholder="Your working email" type="email">
+              </div>
+
+              <div class="form__item">
+                <label class="form__label" for="phone">Phone</label>
+                <input class="form__input" required id="phone" name="phone" placeholder="Your phone number" type="tel">
+              </div>
+
+              <div class="form__item">
+                <label class="form__label" for="message">Message*</label>
+                <textarea class="form__area" name="message" id="message" placeholder="Your message"></textarea>
+              </div>
+
+              <div class="form__item">
+                <div class="ckbox">
+                  <input class="ckbox__input" required id="agree" value="yes" name="agree" type="checkbox">
+                  <label class="ckbox__label" for="agree">
+                    <span class="ckbox__text">
+                      I agree to receive communications from Createx Online School
+                    </span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form__item">
+                <button class="form__btn" type="submit">
+                  <span class="">Send message</span>
+                </button>
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer"></footer>
+  </div>
+</body>
+
+</html>
